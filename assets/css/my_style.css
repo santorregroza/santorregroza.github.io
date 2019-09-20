@@ -1,0 +1,10 @@
+.gradient {
+  background: linear-gradient(120deg,#699abe,#1a405a);
+  color: #fff;
+}
+
+.navbar-dark .navbar-brand, .navbar-dark .navbar-brand:focus, .navbar-dark .navbar-brand:hover {
+  color: rgb(47,94,121);
+  font-weight: 300;
+}
+
