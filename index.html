@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
     <link rel="stylesheet" href="assets/css/Footer-Dark.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
@@ -27,8 +28,8 @@
                     <li class="nav-item" role="presentation"><a class="nav-link active" href="#">Home</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="#">Projects</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="#">CV</a></li>
-                    <li class="dropdown show nav-item"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="true" href="#">Language</a>
-                        <div class="dropdown-menu show" role="menu"><a class="dropdown-item" role="presentation" href="#">English</a><a class="dropdown-item" role="presentation" href="#">Español</a><a class="dropdown-item" role="presentation" href="#">Deutsch</a></div>
+                    <li class="dropdown nav-item"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">Language</a>
+                        <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">English</a><a class="dropdown-item" role="presentation" href="#">Español</a><a class="dropdown-item" role="presentation" href="#">Deutsch</a></div>
                     </li>
                 </ul>
             </div>
@@ -36,7 +37,7 @@
     </nav>
     <section class="portfolio-block intro">
         <div class="container">
-            <div class="avatar" style="background-image: url(&quot;assets/img/avatars/avatar.jpg&quot;);"></div>
+            <div data-bs-hover-animate="tada" class="avatar" style="background-image: url(&quot;assets/img/avatars/avatar.jpg&quot;);"></div>
             <div class="about-me">
                 <p>Hi! I am&nbsp;<strong>Santiago Sánchez</strong>.&nbsp;I am an electronic engineering student about to graduate and currently based in Bogotá. I have a passion for hardware design, digital electronics, robotics, IoT and travel &amp; languages.<br></p>
             </div>
@@ -97,6 +98,7 @@
     </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-animation.js"></script>
 </body>
 
 </html>
