@@ -22,7 +22,7 @@
 }
 
 .portfolio-block .heading h2 {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: .5rem;
@@ -31,5 +31,60 @@
 
 body {
   font-family: 'Roboto Slab';
+}
+
+.card #robotics_ros {
+  background-image: url("../../assets/img/engineering/ros_code_vscode.png");
+  background-size: 200%;
+  background-position: 15%;
+}
+
+.card #digital_electronics {
+  background-image: url("../../assets/img/engineering/digital_design_no-vias.PNG");
+  background-size: 200%;
+  background-position: center;
+}
+
+.card #hardware_design {
+  background-image: url("../../assets/img/engineering/robotrf_pcb_up1.jpg");
+  background-size: 500%;
+  background-position: center;
+}
+
+div.card {
+  position: relative;
+  height: 100%;
+}
+
+.card-background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  filter: blur(0px);
+}
+
+.card-background:hover {
+  filter: blur(2px) opacity(0.9);
+}
+
+.card-background:active {
+  filter: blur(3px);
+  box-shadow: inset 0px 0px 1px 4px rgb(0,0,0);
+}
+
+.card-background:focus {
+  filter: blur(4px);
+  z-index: 1;
+}
+
+div.card-body {
+  background-color: rgba(255,255,255,0.0);
+  color: rgb(255,255,255);
+  z-index: 2;
+}
+
+a.card-link {
+  color: rgb(116,114,114);
 }
 
