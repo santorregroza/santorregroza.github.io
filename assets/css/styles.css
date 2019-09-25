@@ -63,20 +63,24 @@ div.card {
   height: 100%;
   z-index: 3;
   filter: blur(0px);
+  border: none;
 }
 
 .card-background:hover {
-  filter: blur(2px) opacity(0.9);
+  filter: blur(2px) opacity(1);
 }
 
 .card-background:active {
   filter: blur(3px);
-  box-shadow: inset 0px 0px 1px 4px rgb(0,0,0);
+  box-shadow: inset 0px 0px 1px 4px rgb(0,0,0) !important;
+  outline: none !important;
 }
 
 .card-background:focus {
   filter: blur(4px);
   z-index: 1;
+  box-shadow: inset 0px 0px 1px 4px rgb(0,0,0) !important;
+  outline: none !important;
 }
 
 div.card-body {
@@ -87,5 +91,15 @@ div.card-body {
 
 a.card-link {
   color: rgb(116,114,114);
+}
+
+.row_skills {
+  padding-bottom: 25px;
+}
+
+.row_footer .col {
+  height: 50px;
+  text-align: center;
+  padding-top: 10px;
 }
 
