@@ -4,159 +4,340 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>CV - Santiago's Portfolio</title>
+    <title>Santiago Sánchez</title>
+    <link rel="icon" type="image/png" sizes="508x491" href="assets/img/favicon.png">
+    <link rel="icon" type="image/png" sizes="508x491" href="assets/img/favicon.png">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abhaya+Libre">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amethysta">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Average">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
-    <link rel="stylesheet" href="assets/css/my_style.css">
-    <link rel="stylesheet" href="assets/css/pikaday.min.css">
+    <link rel="stylesheet" href="assets/css/cv.css">
+    <link rel="stylesheet" href="assets/css/Footer-Dark.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+<title>Santiago Sánchez</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
-        <div class="container"><a class="navbar-brand logo" href="#">Santiago's Portfolio</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+    <nav class="navbar navbar-light navbar-expand-md navigation-clean">
+        <div class="container"><a class="navbar-brand" href="#">Santiago Sánchez</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse"
-                id="navbarNav">
+                id="navcol-1">
                 <ul class="nav navbar-nav ml-auto">
                     <li class="nav-item" role="presentation"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="projects-grid-cards.html">Projects</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">Projects</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link active" href="cv.html">CV</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="dropdown nav-item"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">Language</a>
+                        <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="cv.html">English</a><a class="dropdown-item" role="presentation" href="#">Español</a><a class="dropdown-item" role="presentation" href="#">Deutsch</a></div>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <main class="page cv-page">
-        <section class="portfolio-block block-intro border-bottom">
-            <div class="container">
-                <div class="avatar" style="background-image:url(&quot;assets/img/avatars/avatar.jpg&quot;);"></div>
-                <div class="about-me">
-                    <p>Hello! I am <strong>John Smith</strong>. I work as interface and front end developer. I have passion for pixel perfect, minimal and easy to use interfaces.</p><a class="btn btn-outline-primary" role="button" href="#">Hire me</a></div>
-            </div>
-        </section>
-        <section class="portfolio-block cv">
-            <div class="container">
-                <div class="work-experience group">
-                    <div class="heading">
-                        <h2 class="text-center">Work Experience</h2>
-                    </div>
-                    <div class="item">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <h3>Web Developer</h3>
-                                <h4 class="organization">Amazing Co.</h4>
-                            </div>
-                            <div class="col-md-6"><span class="period">10/2013 - 04/2015</span></div>
-                        </div>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget velit ultricies, feugiat est sed, efficitur nunc, vivamus vel accumsan dui.</p>
-                    </div>
-                    <div class="item">
-                        <div class="row">
-                            <div class="col-6">
-                                <h3>Front End Developer</h3>
-                                <h4 class="organization">Innovative Org.</h4>
-                            </div>
-                            <div class="col-md-6"><span class="period">05/2015 - 12/2017</span></div>
-                        </div>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget velit ultricies, feugiat est sed, efficitur nunc, vivamus vel accumsan dui.</p>
-                    </div>
-                    <div class="item">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <h3>Web Developer</h3>
-                                <h4 class="organization">Special Inc.</h4>
-                            </div>
-                            <div class="col-md-6"><span class="period">12/2017 - Present</span></div>
-                        </div>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget velit ultricies, feugiat est sed, efficitur nunc, vivamus vel accumsan dui.</p>
-                    </div>
-                </div>
-                <div class="education group">
-                    <div class="heading">
-                        <h2 class="text-center">Education</h2>
-                    </div>
-                    <div class="item">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <h3>High School</h3>
-                                <h4 class="organization">Albert Einstein School</h4>
-                            </div>
-                            <div class="col-6"><span class="period">09/2005 - 05/2010</span></div>
-                        </div>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget velit ultricies, feugiat est sed, efficitur nunc, vivamus vel accumsan dui.</p>
-                    </div>
-                    <div class="item">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <h3>Applied Physics</h3>
-                                <h4 class="organization">Stephen Hawking College</h4>
-                            </div>
-                            <div class="col-md-6"><span class="period">09/2010 - 06/2015</span></div>
-                        </div>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget velit ultricies, feugiat est sed, efficitur nunc, vivamus vel accumsan dui.</p>
-                    </div>
-                </div>
-                <div class="group">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="skills portfolio-info-card">
-                                <h2>Skills</h2>
-                                <h3>HTML</h3>
-                                <div class="progress">
-                                    <div class="progress-bar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"><span class="sr-only">100%</span></div>
-                                </div>
-                                <h3>PHP</h3>
-                                <div class="progress">
-                                    <div class="progress-bar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"><span class="sr-only">90%</span></div>
-                                </div>
-                                <h3>JavaScript</h3>
-                                <div class="progress">
-                                    <div class="progress-bar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"><span class="sr-only">80%</span></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="contact-info portfolio-info-card">
-                                <h2>Contact Info</h2>
-                                <div class="row">
-                                    <div class="col-1"><i class="icon ion-android-calendar icon"></i></div>
-                                    <div class="col-9"><span>10/10/1990</span></div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-1"><i class="icon ion-person icon"></i></div>
-                                    <div class="col-9"><span>John Smith</span></div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-1"><i class="icon ion-ios-telephone icon"></i></div>
-                                    <div class="col-9"><span>+235 3217 424</span></div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-1"><i class="icon ion-at icon"></i></div>
-                                    <div class="col-9"><span>lorem@email.com</span></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="hobbies group">
-                    <div class="heading">
-                        <h2 class="text-center">Hobbies</h2>
-                    </div>
-                    <p class="text-center text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras risus ligula, iaculis ut metus sit amet, luctus pharetra mauris. Aliquam purus felis, pretium vel pretium vitae, dapibus sodales ante. Suspendisse potenti. Duis nunc eros.</p>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer class="page-footer">
+    <section class="portfolio-block intro">
         <div class="container">
-            <div class="links"><a href="#">About me</a><a href="#">Contact me</a><a href="#">Projects</a></div>
-            <div class="social-icons"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-instagram-outline"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a></div>
+            <div data-bs-hover-animate="tada" class="avatar" style="background-image: url(&quot;assets/img/avatars/avatar.jpg&quot;);"></div>
+            <div class="about-me">
+                <p>Hi! I am&nbsp;<strong>Santiago Sánchez</strong>.&nbsp;I am an electronic engineering student about to graduate and currently based in Bogotá. I have a passion for hardware design, digital electronics, robotics, IoT and travel &amp; languages.<br></p>
+            </div>
         </div>
-    </footer>
+    </section>
+    <section class="portfolio-block cv">
+        <div class="container cv-container">
+            <div class="work-experience group">
+                <div class="heading">
+                    <h2 class="text-center">Work Experience</h2>
+                </div>
+                <div class="item">
+                    <div class="row">
+                        <div class="col-md-8 col-lg-9 col-xl-9">
+                            <h3>ZF Friedrichshafen AG<br></h3>
+                            <h4 class="organization">Internship</h4>
+                        </div>
+                        <div class="col-md-4 col-lg-3 col-xl-3">
+                            <div class="row">
+                                <div class="col"><span class="period">03/2019 - 08/2019</span></div>
+                            </div>
+                            <div class="row">
+                                <div class="col"><span class="period">Friedrichshafen, Germany</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-muted">Migration of software components&nbsp;and RViz plugins used for autonomous driving systems from ROS1 to ROS2, porting of the UDP Server from Linux to&nbsp;Windows, and bridging of ROS2 nodes on Windows and ROS1 nodes on Linux with&nbsp;ros_bridge.<br></p>
+                </div>
+                <div class="item">
+                    <div class="row">
+                        <div class="col-12 col-md-8 col-lg-9 col-xl-9">
+                            <h3>Escuela Colombiana de Ingeniería Julio Garavito<br></h3>
+                            <h4 class="organization"><strong>Research Assistant</strong><br></h4>
+                        </div>
+                        <div class="col-md-4 col-lg-3 col-xl-3">
+                            <div class="row">
+                                <div class="col"><span class="period">08/2017 - 07/2018</span></div>
+                            </div>
+                            <div class="row">
+                                <div class="col"><span class="period">Bogotá, Colombia</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-muted">Development of a robot’s&nbsp;firmware, electronic design and PCB for the participation at the RoboCup Small&nbsp;Size League competition.</p>
+                </div>
+                <div class="item">
+                    <div class="row">
+                        <div class="col-md-8 col-lg-9 col-xl-9">
+                            <h3>Escuela Colombiana de Ingeniería Julio Garavito</h3>
+                            <h4 class="organization"><strong>Research Assistant</strong><br></h4>
+                        </div>
+                        <div class="col-md-4 col-lg-3 col-xl-3">
+                            <div class="row">
+                                <div class="col"><span class="period">04/2017 - 08/2017</span></div>
+                            </div>
+                            <div class="row">
+                                <div class="col"><span class="period">Bogotá, Colombia</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-muted">Research and developmentof the electronic system for a robotic active lower-limp prosthesis with ROS.<br></p>
+                </div>
+            </div>
+            <div class="education group">
+                <div class="heading">
+                    <h2 class="text-center">Education</h2>
+                </div>
+                <div class="item">
+                    <div class="row">
+                        <div class="col-md-8 col-lg-9 col-xl-9">
+                            <h3>Escuela Colombiana de Ingeniería Julio Garavito</h3>
+                            <h4 class="organization">Electronic Engineering</h4>
+                        </div>
+                        <div class="col-md-4 col-lg-3 col-xl-3">
+                            <div class="row">
+                                <div class="col"><span class="period">From 01/2014</span></div>
+                            </div>
+                            <div class="row">
+                                <div class="col"><span class="period">Bogotá, Colombia</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-muted">Electronic Engineering with an emphasis on digital electronics<br>GPA: 4,4&nbsp;in a scale from 0 to 5 (“Very good”)<br>Graduation in March 2020<br></p>
+                </div>
+                <div class="item">
+                    <div class="row">
+                        <div class="col-md-8 col-lg-9 col-xl-9">
+                            <h3>Technische Universität Ilmenau</h3>
+                            <h4 class="organization">Exchange student</h4>
+                        </div>
+                        <div class="col-md-4 col-lg-3 col-xl-3">
+                            <div class="row">
+                                <div class="col"><span class="period">10/2018 - 09/2019</span></div>
+                            </div>
+                            <div class="row">
+                                <div class="col"><span class="period">Ilmenau, Germany</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-muted">Exchange student, with a scholarship from the Deutscher Akademischer&nbsp;Austauschdienst (DAAD)<br></p>
+                </div>
+                <div class="item">
+                    <div class="row">
+                        <div class="col-md-8 col-lg-9 col-xl-9">
+                            <h3>Colegio Emilio Valenzuela</h3>
+                            <h4 class="organization">High School Degree</h4>
+                        </div>
+                        <div class="col-md-4 col-lg-3 col-xl-3">
+                            <div class="row">
+                                <div class="col"><span class="period">02/2009 - 12/2013</span></div>
+                            </div>
+                            <div class="row">
+                                <div class="col"><span class="period">Bogotá, Colombia</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-muted">Other activities, such as: UN Models, physolophy symposia, volleyball tournaments, robotics competitions.</p>
+                </div>
+            </div>
+            <div class="awards group">
+                <div class="heading">
+                    <h2 class="text-center">AWARDS &amp; DISTINCTIONS</h2>
+                </div>
+                <div class="item">
+                    <div class="row">
+                        <div class="col-md-8 col-lg-9 col-xl-9">
+                            <h3>Scholarship from the DAAD - Program Jungingenieuren Kolumbien<br></h3>
+                            <h4 class="organization">German Academic Exchange Service (DAAD)</h4>
+                        </div>
+                        <div class="col-md-4 col-lg-3 col-xl-3">
+                            <div class="row">
+                                <div class="col"><span class="period">08/2018 - 07/2019</span></div>
+                            </div>
+                            <div class="row">
+                                <div class="col"><span class="period">Germany</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-muted">The scholarship in Germany consisted of a two-month German course, and two&nbsp;semesters as an exchange student including a mandatory internship.<br></p>
+                </div>
+                <div class="item">
+                    <div class="row">
+                        <div class="col-md-8 col-lg-9 col-xl-9">
+                            <h3>Scholarship of Academic Excellence</h3>
+                            <h4 class="organization">Escuela Colombiana de Ingeniería Julio Garavito</h4>
+                        </div>
+                        <div class="col-md-4 col-lg-3 col-xl-3">
+                            <div class="row">
+                                <div class="col"><span class="period">03/2016 - 02/2018</span></div>
+                            </div>
+                            <div class="row">
+                                <div class="col"><span class="period">Bogotá, Colombia</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-muted">Awarded each semester to the two students who are in the third year or further,<br>that have the best GPAs of each program.<br></p>
+                </div>
+            </div>
+            <div class="group">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="skills portfolio-info-card">
+                            <h2>Skills</h2>
+                            <h3>Microsoft Office</h3>
+                            <div class="progress">
+                                <div class="progress-bar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"><span class="sr-only">90%</span></div>
+                            </div>
+                            <h3>Altium Designer</h3>
+                            <div class="progress">
+                                <div class="progress-bar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"><span class="sr-only">70%</span></div>
+                            </div>
+                            <h3>MATLAB</h3>
+                            <div class="progress">
+                                <div class="progress-bar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"><span class="sr-only">80%</span></div>
+                            </div>
+                            <h3>Ubuntu/Ubuntu Server</h3>
+                            <div class="progress">
+                                <div class="progress-bar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"><span class="sr-only">80%</span></div>
+                            </div>
+                            <h3>ROS/ROS2</h3>
+                            <div class="progress">
+                                <div class="progress-bar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"><span class="sr-only">80%</span></div>
+                            </div>
+                            <h3>C</h3>
+                            <div class="progress">
+                                <div class="progress-bar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"><span class="sr-only">85%</span></div>
+                            </div>
+                            <h3>C++</h3>
+                            <div class="progress">
+                                <div class="progress-bar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"><span class="sr-only">75%</span></div>
+                            </div>
+                            <h3>Python</h3>
+                            <div class="progress">
+                                <div class="progress-bar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"><span class="sr-only">80%</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="languages portfolio-info-card">
+                            <h2>Languages</h2>
+                            <div class="row language">
+                                <div class="col-12">
+                                    <h3>Spanish</h3>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12"><span>Mother tongue</span></div>
+                            </div>
+                            <div class="row language">
+                                <div class="col-12">
+                                    <h3>English</h3>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12"><span>Michigan English Test, C1</span></div>
+                            </div>
+                            <div class="row language">
+                                <div class="col-12">
+                                    <h3>German</h3>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12"><span>TestDaF-Ergebnis 19</span></div>
+                            </div>
+                            <div class="row language">
+                                <div class="col-12">
+                                    <h3>French</h3>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12"><span>Intermediate level</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hobbies group">
+                <div class="heading">
+                    <h2 class="text-center">Hobbies &amp; INTERESTS</h2>
+                </div>
+                <p class="text-center text-muted">Languages and their history<br>Travel<br>Meeting new cultures and new people<br>Music</p>
+            </div>
+            <div class="group contact-info" style="width: 325px;">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="contact-info portfolio-info-card">
+                            <h2 class="text-center">Contact Info</h2>
+                            <div class="row">
+                                <div class="col-1"><i class="icon ion-android-calendar icon"></i></div>
+                                <div class="col-10"><span>07/24/1996</span></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-1"><i class="icon ion-person icon"></i></div>
+                                <div class="col-10"><span>Santiago Sánchez</span></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-1"><i class="icon ion-ios-telephone icon"></i></div>
+                                <div class="col-10"><span>+57 (1) 300 765 8253</span></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-1"><i class="icon ion-at icon"></i></div>
+                                <div class="col-10"><span>santorregroza@gmail.com</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="footer-dark" style="padding-top: 20px;padding-bottom: 20px;">
+        <footer>
+            <div class="container">
+                <div class="row row_footer">
+                    <div class="col">
+                        <h3><a class="footer_link">Projects</a></h3>
+                    </div>
+                    <div class="col">
+                        <h3><a class="footer_link" href="cv.html">CV</a></h3>
+                    </div>
+                    <div class="col">
+                        <h3><a class="footer_link" href="mailto:santorregroza@gmail.com">Contact</a></h3>
+                    </div>
+                </div>
+                <div class="row row_footer">
+                    <div class="col item social" style="margin-top: 0px;padding-top: 7px;"><a href="https://www.facebook.com/santiago.sancheztorregroza"><i class="icon ion-social-facebook"></i></a><a href="https://twitter.com/santorregroza"><i class="icon ion-social-twitter"></i></a><a href="skype:santorregroza?chat"><i class="icon ion-social-skype"></i></a>
+                        <a
+                            href="https://www.instagram.com/santorregroza"><i class="icon ion-social-instagram"></i></a>
+                    </div>
+                </div>
+                <p class="copyright">Santiago Sánchez Torregroza © 2019</p>
+            </div>
+        </footer>
+    </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
-    <script src="assets/js/theme.js"></script>
+    <script src="assets/js/bs-animation.js"></script>
 </body>
 
 </html>

@@ -93,6 +93,10 @@ a.card-link {
   color: rgb(116,114,114);
 }
 
+a.footer_link {
+  color: rgb(209,207,207) !important;
+}
+
 .row_skills {
   padding-bottom: 25px;
 }
