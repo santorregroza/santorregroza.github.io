@@ -31,6 +31,7 @@
 
 body {
   font-family: 'Roboto Slab';
+  padding-top: 72px;
 }
 
 .card #robotics_ros {
