@@ -116,3 +116,8 @@ a:hover {
 .progress-bar {
   background-color: rgba(157,0,255,1);
 }
+
+.h1, h1 {
+  font-size: 2.5rem;
+  letter-spacing: 0.5rem;
+}
