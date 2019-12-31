@@ -15,6 +15,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Santiago Sánchez</title>
+    
     <link rel="icon" type="image/png" sizes="508x491" href="assets/img/favicon.png">
     <link rel="icon" type="image/png" sizes="508x491" href="assets/img/favicon.png">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
@@ -25,11 +26,14 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
-    <link rel="stylesheet" href="assets/css/cv.css">
     <link rel="stylesheet" href="assets/css/Footer-Dark.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    
 <title>Santiago Sánchez</title>
 </head>
 
@@ -39,8 +43,8 @@
             <div class="collapse navbar-collapse"
                 id="navcol-1">
                 <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item" role="presentation"><a class="nav-link active" href="index.html">Home</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="projects.html">Projects</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="projects.html">Projects</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="cv.html">CV</a></li>
                     <li class="dropdown nav-item"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#"><img class="float-left" style="width: 30px;height: 20px;margin: 0px;margin-right: 5px;margin-left: 0px;margin-bottom: 0px;padding-bottom: 0px;margin-top: 2px;padding-top: 0px;border-radius: 3px;" src="assets/img/flags/Flag_of_the_United_Kingdom.svg"></a>
                         <div
@@ -57,43 +61,93 @@
     </nav>
     <section class="portfolio-block intro">
         <div class="container">
-            <div class="avatar"></div>
             <div class="about-me">
-                <p>Hi! I am&nbsp;<strong>Santiago Sánchez</strong>.&nbsp;I am an electronic engineer currently based in Bogotá. I have a passion for hardware design, digital electronics, robotics, IoT and travel &amp; languages.<br></p>
+                <h1 style="text-align: center;">&nbsp;<strong>PROJECT LISTING</strong>&nbsp;<br></h1>
             </div>
         </div>
     </section>
-    <section class="portfolio-block skills">
-        <div class="container">
-            <div class="heading">
-                <h2>Special Skills</h2>
-            </div>
-            <div class="row row_skills">
-                <div class="col">
-                    <div class="card"><button class="btn btn-primary card-background" id="hardware_design" type="button" style="background-color: rgb(255,255,255);"></button>
-                        <div class="card-body">
-                            <h4 class="card-title">Hardware Design</h4>
-                            <p class="card-text">I designed the PCBs for a team of RoboCup Small Size league robots. It involved the designing and integration of the supply system, power system, comms, and programming interface.</p><a class="card-link" href="#">Learn more</a></div>
+    
+    <!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						
+						<div class="content">
+							<div class="inner">
+								<h1>PROJECTS</h1>
+								<p>Choose one of the projects below to learn more...</p>
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="#robocup">RoboCup</a></li>
+								<li><a href="#t-flex">T-Flex</a></li>
+								<li><a href="#portfolio">Portfolio</a></li>
+								<li><a href="#contact">Contact</a></li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Intro -->
+							<article id="robocup">
+								<h2 class="major">Intro</h2>
+								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
+								<p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. By the way, check out my <a href="#work">awesome work</a>.</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
+							</article>
+
+						<!-- Work -->
+							<article id="t-flex">
+								<h2 class="major">Work</h2>
+								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
+								<p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
+								<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
+							</article>
+
+						<!-- About -->
+							<article id="portfolio">
+								<h2 class="major">About</h2>
+								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
+								<p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
+							</article>
+
+						<!-- Contact -->
+							<article id="contact">
+								<h2 class="major">Contact</h2>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="4"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Reset" /></li>
+									</ul>
+								</form>
+								<ul class="icons">
+									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+                            </article>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card"><button class="btn btn-primary card-background" id="digital_electronics" type="button"></button>
-                        <div class="card-body">
-                            <h4 class="card-title">Digital Electronics</h4>
-                            <p class="card-text">In the project for a RoboCup Small Size league team of robots I was also responsible for the development and testing of the robots' firmware, which allowed for basic interaction through a serial interface for testing and the
-                                robots' movement.</p><a class="card-link" href="#">Learn more</a></div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card"><button class="btn btn-primary card-background" id="robotics_ros" type="button"></button>
-                        <div class="card-body">
-                            <h4 class="card-title">Robotics &amp; ROS</h4>
-                            <p class="card-text">I worked in a project for the development of an active lower-limp prosthesis with ROS. During my internship &nbsp;I also worked migrating components from ROS1 to ROS2, and with ROS2 in general.</p><a class="card-link" href="#">Learn more</a></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+			</div>
+
     <div class="footer-dark" style="padding-top: 20px;padding-bottom: 20px;">
         <footer>
             <div class="container">
@@ -118,9 +172,13 @@
             </div>
         </footer>
     </div>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/bs-animation.js"></script>
+
+    <!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 </body>
 
 </html>
