@@ -67,80 +67,159 @@
     </section>
     
     <!-- Wrapper -->
-			<div id="wrapper">
-
-				<!-- Header -->
-					<header id="header">
-                        <section class="portfolio-block skills">
-                            <nav>
-                            <div class="container">
-                                <div class="heading">
-                                    <h2>Robotik</h2>
-                                </div>
-                                <div class="row row_skills">
-                                    <div class="col">
-                                        <div class="card"><button class="btn btn-primary card-background" id="hardware_design" type="button"></button>
-                                            <div class="card-body">
-                                                <h4 class="card-title">Hardware Design</h4>
-                                                <p class="card-text">Ich habe das elektronische Design und die Leiterplatte für ein Team von RoboCup Small Size league Roboter entwickelt. Das umfasste das Design und die Integration der Spannungsversorgung, des Leistungssystems, des Kommunikationssystems,
-                                                    und des Programmierungsinterfaces.</p>
-                                                <a class="card-link" href="#robocup" onmouseover="$('#hardware_design').addClass('card-background-learn-more');" onmouseout="$('#hardware_design').removeClass('card-background-learn-more');('#hardware_design').focus();">Mehr erfahren</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="card"><button class="btn btn-primary card-background" id="digital_electronics" type="button"></button>
-                                            <div class="card-body">
-                                                <h4 class="card-title">Digitale Electronik</h4>
-                                                <p class="card-text">Im Projekt für ein RoboCup Small Size league Roboter Team war ich zuständig für die Entwicklung und das Testen der Firmware der Roboter, die sowohl eine einfache Interaktion durch ein Serial-Interface mit dem Roboter&nbsp;zum
-                                                    Zweck Testen&nbsp;als auch dessen Bewegung ermöglichte.</p>
-                                                <a class="card-link" href="#autonomous-driving" onmouseover="$('#digital_electronics').addClass('card-background-learn-more');" onmouseout="$('#digital_electronics').removeClass('card-background-learn-more');('#digital_electronics').focus();">Mehr erfahren</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="card"><button class="btn btn-primary card-background" id="robotics_ros" type="button"></button>
-                                            <div class="card-body">
-                                                <h4 class="card-title">Robotik &amp; ROS</h4>
-                                                <p class="card-text">Ich habe an einem Projekt für die Entwicklung einer aktiven Beinprothese mit ROS gearbeitet. In meinem Praktikum bezogen sich die Aufgaben &nbsp;auf die Migration von SW-Komponenten von ROS1 nach ROS2, und generell auch auf
-                                                    ROS2.</p>
-                                                <a class="card-link" href="#t-flex" onmouseover="$('#robotics_ros').addClass('card-background-learn-more');" onmouseout="$('#robotics_ros').removeClass('card-background-learn-more');('#robotics_ros').focus();">Mehr erfahren</a>
-                                            </div>
-                                        </div>
+    <div id="wrapper">
+        <!-- Header -->
+        <header id="header">
+            <section class="portfolio-block skills">
+                <nav>
+                    <!-- Robotics container -->
+                    <div class="container">
+                        <div class="heading">
+                            <h2 class="divider">Robotik</h2>
+                        </div>
+                        <div class="row row_projects">
+                            <div class="col">
+                                <div class="card"><button class="btn btn-primary card-background" id="hardware_design" type="button"></button>
+                                    <div class="card-body">
+                                        <h4 class="card-title">Hardware Design</h4>
+                                        <p class="card-text">Ich habe das elektronische Design und die Leiterplatte für ein Team von RoboCup Small Size league Roboter entwickelt. Das umfasste das Design und die Integration der Spannungsversorgung, des Leistungssystems, des Kommunikationssystems,
+                                            und des Programmierungsinterfaces.</p>
+                                        <a class="card-link" href="#robocup-hardware" onmouseover="$('#hardware_design').addClass('card-background-learn-more');" onmouseout="$('#hardware_design').removeClass('card-background-learn-more');('#hardware_design').focus();">Learn more</a>
                                     </div>
                                 </div>
                             </div>
-                            </nav>
-                        </section>
-					</header>
-
-				<!-- Main -->
-					<div id="main">
-
-						<!-- Intro -->
-							<article id="robocup">
-								<h2 class="major">RoboCup Small Size League Roboter</h2>
-								<span class="image main"><img src="assets/img/engineering/digital_design.PNG" alt="" /></span>
-								<p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. By the way, check out my <a href="#work">awesome work</a>.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
-							</article>
-
-						<!-- Work -->
-							<article id="t-flex">
-								<h2 class="major">Robotische Beinprosthese für Patienten mit Steppergang</h2>
-								<span class="image main"><img src="assets/img/engineering/ros_code_vscode.png" alt="" /></span>
-								<p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
-								<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
-							</article>
-
-						<!-- About -->
-							<article id="autonomous-driving">
-								<h2 class="major">Autonomes Fahren</h2>
-								<span class="image main"><img src="assets/img/engineering/ros_code_atom.png" alt="" /></span>
-								<p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
-							</article>
+                            <div class="col">
+                                <div class="card"><button class="btn btn-primary card-background" id="firmware_development" type="button"></button>
+                                    <div class="card-body">
+                                        <h4 class="card-title">Firmware Entwicklung</h4>
+                                        <p class="card-text">Im Projekt für ein RoboCup Small Size league Roboter Team war ich zuständig für die Entwicklung und das Testen der Firmware der Roboter, die sowohl eine einfache Interaktion durch ein Serial-Interface mit dem Roboter&nbsp;zum
+                                            Zweck Testen&nbsp;als auch dessen Bewegung ermöglichte.</p>
+                                        <a class="card-link" href="#robocup-firmware" onmouseover="$('#firmware_development').addClass('card-background-learn-more');" onmouseout="$('#firmware_development').removeClass('card-background-learn-more');('#firmware_development').focus();">Learn more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card"><button class="btn btn-primary card-background" id="robotics_ros" type="button"></button>
+                                    <div class="card-body">
+                                        <h4 class="card-title">Robotische Beinprosthese</h4>
+                                        <p class="card-text">Ich habe an einem Projekt für die Entwicklung einer aktiven Beinprothese mit ROS gearbeitet. In meinem Praktikum bezogen sich die Aufgaben &nbsp;auf die Migration von SW-Komponenten von ROS1 nach ROS2, und generell auch auf
+                                            ROS2.</p>
+                                        <a class="card-link" href="#t-flex" onmouseover="$('#robotics_ros').addClass('card-background-learn-more');" onmouseout="$('#robotics_ros').removeClass('card-background-learn-more');('#robotics_ros').focus();">Learn more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-			</div>
+
+                    <!-- IoT container -->
+                    <div class="container">
+                        <div class="heading">
+                            <h2 class="divider">IoT</h2>
+                        </div>
+                        <div class="row row_projects">
+                            <div class="col">
+                                <div class="card"><button class="btn btn-primary card-background" id="slots" type="button"></button>
+                                    <div class="card-body">
+                                        <h4 class="card-title">SLOTS</h4>
+                                        <p class="card-text">blablabla.</p>
+                                        <a class="card-link" href="#dummy" onmouseover="$('#slots').addClass('card-background-learn-more');" onmouseout="$('#slots').removeClass('card-background-learn-more');('#slots').focus();">Learn more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card"><button class="btn btn-primary card-background" id="line-follower-timer" type="button"></button>
+                                    <div class="card-body">
+                                        <h4 class="card-title">Automatischer Line-Follower-Wettbewerb Timer</h4>
+                                        <p class="card-text">blablabla.</p>
+                                        <a class="card-link" href="#dummy" onmouseover="$('#line-follower-timer').addClass('card-background-learn-more');" onmouseout="$('#line-follower-timer').removeClass('card-background-learn-more');('#line-follower-timer').focus();">Learn more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card"><button class="btn btn-primary card-background" id="hydroponics" type="button"></button>
+                                    <div class="card-body">
+                                        <h4 class="card-title">Automatisierung eines Hydroponischen Anbaus von Salat</h4>
+                                        <p class="card-text">blablabla.</p>
+                                        <a class="card-link" href="#dummy" onmouseover="$('#hydroponics').addClass('card-background-learn-more');" onmouseout="$('#hydroponics').removeClass('card-background-learn-more');('#hydroponics').focus();">Learn more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Android Development container -->
+                    <div class="container">
+                        <div class="heading">
+                            <h2 class="divider">Android Entwicklung</h2>
+                        </div>
+                        <div class="row row_projects">
+                            <div class="col">
+                                <div class="card"><button class="btn btn-primary card-background" id="slots-app" type="button"></button>
+                                    <div class="card-body">
+                                        <h4 class="card-title">SLOTS Android App</h4>
+                                        <p class="card-text">blablabla.</p>
+                                        <a class="card-link" href="#dummy" onmouseover="$('#slots-app').addClass('card-background-learn-more');" onmouseout="$('#slots-app').removeClass('card-background-learn-more');('#slots-app').focus();">Learn more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Web Development container -->
+                    <div class="container">
+                        <div class="heading">
+                            <h2 class="divider">Web Entwicklung</h2>
+                        </div>
+                        <div class="row row_projects">
+                            <div class="col">
+                                <div class="card"><button class="btn btn-primary card-background" id="portfolio" type="button"></button>
+                                    <div class="card-body">
+                                        <h4 class="card-title">Online Portfolio</h4>
+                                        <p class="card-text">Doch. Du schaust's dir grad' an.</p>
+                                        <a class="card-link" href="#dummy" onmouseover="$('#portfolio').addClass('card-background-learn-more');" onmouseout="$('#portfolio').removeClass('card-background-learn-more');('#portfolio').focus();">Learn more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </section>
+        </header>
+
+        <!-- Main -->
+        <div id="main">
+
+            <!-- RoboCup Hardware -->
+            <article id="robocup-hardware">
+                <h2 class="major">RoboCup Small Size League Roboter Hardware</h2>
+                <span class="image main"><img src="assets/img/engineering/digital_design.PNG" alt="" /></span>
+                <p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. By the way, check out my <a href="#work">awesome work</a>.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
+            </article>
+
+            <!-- RoboCup Firmware -->
+            <article id="robocup-firmware">
+                <h2 class="major">RoboCup Small Size League Roboter Firmware</h2>
+                <span class="image main"><img src="assets/img/engineering/digital_design.PNG" alt="" /></span>
+                <p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
+            </article>
+
+            <!-- T-Flex -->
+            <article id="t-flex">
+                <h2 class="major">Robotische Beinprosthese für Patienten mit Steppergang</h2>
+                <span class="image main"><img src="assets/img/engineering/ros_code_vscode.png" alt="" /></span>
+                <p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
+                <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
+            </article>
+
+            <!-- Dummy -->
+            <article id="dummy">
+                <h2 class="major">Dummy</h2>
+                <span class="image main"><img src="assets/img/engineering/ros_code_atom.png" alt="" /></span>
+                <p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
+            </article>
+        </div>
+    </div>
 
     <div class="footer-dark" style="padding-top: 20px;padding-bottom: 20px;">
         <footer>

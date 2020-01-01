@@ -1,21 +1,18 @@
+/* General*/ 
+
 .portfolio-block.cv {
-  /*padding-top: 70px;*/
+  padding-top: 70px;
 }
 
 body {
   margin: 0;
-  font-family: Lato,sans-serif;
+  font-family: 'Roboto Slab';
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
   text-align: left;
   background-color: #fff;
-}
-
-.portfolio-block.cv .group.contact-info {
-  max-width: 800px;
-  margin-bottom: 80px;
 }
 
 .portfolio-block.cv .group {
@@ -39,15 +36,6 @@ body {
   margin-bottom: 5px;
 }
 
-.portfolio-block.cv .group .organization {
-  font-size: .85em;
-  background-color: #0ea0ff;
-  display: inline-block;
-  color: #fff;
-  padding: 2px 8px;
-  border-radius: 2em;
-}
-
 .h4, h4 {
   font-size: 1.5rem;
 }
@@ -58,10 +46,69 @@ body {
   line-height: 1.2;
 }
 
+.portfolio-block.cv h3 {
+  font-size: 1.3rem;
+}
+
+.portfolio-block.cv h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 70px !important;
+}
+
+.portfolio-block .heading h2 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
 @media (min-width:768px) {
   .portfolio-block.cv .group .period {
     float: right;
   }
+}
+
+/*
+@media (min-width:768px) {
+  .portfolio-block .heading h2 {
+    font-size: 2rem;
+  }
+}
+*/
+
+.text-muted {
+  color: #6c757d!important;
+}
+
+.text-center {
+  text-align: center!important;
+}
+
+/* Contents */
+
+.portfolio-block.cv .education h3, .portfolio-block.cv .work-experience h3, .portfolio-block.cv .awards h3 {
+  font-weight: 700;
+}
+
+.portfolio-block.cv .group .organization {
+  font-size: .85em;
+  background-color: #0ea0ff;
+  display: inline-block;
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 2em;
+}
+
+.portfolio-block.cv .education.group .organization {
+  background-color: #20c997;
+}
+
+.portfolio-block.cv .awards.group .organization {
+  background-color: #f00909;
+}
+
+.progress-bar {
+  background-color: rgba(157,0,255,1);
 }
 
 .portfolio-block.cv .group .period {
@@ -71,43 +118,6 @@ body {
   margin-top: 4px;
   color: #6c757d;
   opacity: .8;
-}
-
-.text-muted {
-  color: #6c757d!important;
-}
-
-@media (min-width:768px) {
-  .portfolio-block .heading h2 {
-    font-size: 2rem;
-  }
-}
-
-.portfolio-block.cv h2 {
-  font-weight: 700;
-  margin-bottom: 70px !important;
-}
-
-.portfolio-block .heading h2 {
-  font-weight: 700;
-  font-size: 1.4rem;
-  text-transform: uppercase;
-}
-
-.text-center {
-  text-align: center!important;
-}
-
-.portfolio-block.cv .education h3, .portfolio-block.cv .work-experience h3, .portfolio-block.cv .awards h3 {
-  font-weight: 700;
-}
-
-.portfolio-block.cv h3 {
-  font-size: 1.3rem;
-}
-
-.portfolio-block.cv .education.group .organization {
-  background-color: #20c997;
 }
 
 .portfolio-info-card {
@@ -163,7 +173,9 @@ body {
   font-weight: 700;
 }
 
-.portfolio-block.cv .awards.group .organization {
-  background-color: #f00909;
-}
+/* Contact */
 
+.portfolio-block.cv .group.contact-info {
+  max-width: 800px;
+  margin-bottom: 80px;
+}
