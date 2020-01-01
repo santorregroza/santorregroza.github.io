@@ -52,10 +52,10 @@ body {
   background-position: 15%;
 }
 
-.card #robotics_ros {
-  background-image: url("../../assets/img/engineering/ros_code_vscode.png");
-  background-size: 200%;
-  background-position: 15%;
+.card #hardware_design {
+  background-image: url("../../assets/img/engineering/robotrf_pcb_up1.jpg");
+  background-size: 500%;
+  background-position: center;
 }
 
 .card #firmware_development {
@@ -65,10 +65,10 @@ body {
   background-repeat: no-repeat;
 }
 
-.card #hardware_design {
-  background-image: url("../../assets/img/engineering/robotrf_pcb_up1.jpg");
-  background-size: 500%;
-  background-position: center;
+.card #robotics_ros {
+  background-image: url("../../assets/img/engineering/ros_code_vscode.png");
+  background-size: 200%;
+  background-position: 15%;
 }
 
 div.card {
