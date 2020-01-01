@@ -46,23 +46,22 @@
                     <li class="nav-item" role="presentation"><a class="nav-link" href="index.html">Home</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link active" href="projects.html">Projects</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="cv.html">CV</a></li>
-                    <li class="dropdown nav-item"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#"><img class="float-left" style="width: 30px;height: 20px;margin: 0px;margin-right: 5px;margin-left: 0px;margin-bottom: 0px;padding-bottom: 0px;margin-top: 2px;padding-top: 0px;border-radius: 3px;" src="assets/img/flags/Flag_of_the_United_Kingdom.svg"></a>
-                        <div
-                            class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="projects.html">English<img class="float-left" style="width: 30px;height: 20px;margin: 0px;margin-right: 8px;margin-left: 0px;margin-bottom: 0px;padding-bottom: 0px;margin-top: 6px;padding-top: 0px;border-radius: 3px;" src="assets/img/flags/Flag_of_the_United_Kingdom.svg"></a>
-                            <a
-                                class="dropdown-item" role="presentation" href="proyectos-es.html">Español<img class="float-left" style="width: 30px;height: 20px;margin: 0px;margin-right: 8px;margin-left: 0px;margin-bottom: 0px;padding-bottom: 0px;margin-top: 7px;padding-top: 0px;border-radius: 3px;" src="assets/img/flags/Flag_of_Spain.svg"></a>
-                                <a
-                                    class="dropdown-item" role="presentation" href="projekte-de.html">Deutsch<img class="float-left" style="width: 30px;height: 20px;margin: 0px;margin-right: 8px;margin-left: 0px;margin-bottom: 0px;padding-bottom: 0px;margin-top: 6px;padding-top: 0px;border-radius: 3px;" src="assets/img/flags/Flag_of_Germany.svg"></a>
+                    <li class="dropdown nav-item">
+                        <a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#"><img class="float-left" style="width: 30px;height: 20px;margin: 0px;margin-right: 5px;margin-left: 0px;margin-bottom: 0px;padding-bottom: 0px;margin-top: 2px;padding-top: 0px;border-radius: 3px;" src="assets/img/flags/Flag_of_the_United_Kingdom.svg"></a>
+                        <div class="dropdown-menu" role="menu">
+                            <a class="dropdown-item" role="presentation" href="projects.html">English<img class="float-left" style="width: 30px;height: 20px;margin: 0px;margin-right: 8px;margin-left: 0px;margin-bottom: 0px;padding-bottom: 0px;margin-top: 6px;padding-top: 0px;border-radius: 3px;" src="assets/img/flags/Flag_of_the_United_Kingdom.svg"></a>
+                            <a class="dropdown-item" role="presentation" href="proyectos-es.html">Español<img class="float-left" style="width: 30px;height: 20px;margin: 0px;margin-right: 8px;margin-left: 0px;margin-bottom: 0px;padding-bottom: 0px;margin-top: 7px;padding-top: 0px;border-radius: 3px;" src="assets/img/flags/Flag_of_Spain.svg"></a>
+                            <a class="dropdown-item" role="presentation" href="projekte-de.html">Deutsch<img class="float-left" style="width: 30px;height: 20px;margin: 0px;margin-right: 8px;margin-left: 0px;margin-bottom: 0px;padding-bottom: 0px;margin-top: 6px;padding-top: 0px;border-radius: 3px;" src="assets/img/flags/Flag_of_Germany.svg"></a>
+                        </div>
+                    </li>
+                </ul>
             </div>
-            </li>
-            </ul>
-        </div>
         </div>
     </nav>
     <section class="portfolio-block intro">
         <div class="container">
             <div class="about-me">
-                <h1 style="text-align: center;">&nbsp;<strong>PROJECT LISTING</strong>&nbsp;<br></h1>
+                <h1 style="text-align: center;">&nbsp;<strong>PROJECTS</strong>&nbsp;<br></h1>
             </div>
         </div>
     </section>
@@ -72,21 +71,45 @@
 
 				<!-- Header -->
 					<header id="header">
-						
-						<div class="content">
-							<div class="inner">
-								<h1>PROJECTS</h1>
-								<p>Choose one of the projects below to learn more...</p>
-							</div>
-						</div>
-						<nav>
-							<ul>
-								<li><a href="#robocup">RoboCup</a></li>
-								<li><a href="#t-flex">T-Flex</a></li>
-								<li><a href="#portfolio">Portfolio</a></li>
-								<li><a href="#contact">Contact</a></li>
-							</ul>
-						</nav>
+                        <section class="portfolio-block skills">
+                            <nav>
+                            <div class="container">
+                                <div class="heading">
+                                    <h2>Robotics</h2>
+                                </div>
+                                <div class="row row_skills">
+                                    <div class="col">
+                                        <div class="card"><button class="btn btn-primary card-background" id="hardware_design" type="button"></button>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Hardware Design</h4>
+                                                <p class="card-text">I designed the PCBs for a team of RoboCup Small Size league robots. It involved the designing and integration of the supply system, power system, comms, and programming interface.</p>
+                                                <a class="card-link" href="#robocup" onmouseover="$('#hardware_design').addClass('card-background-learn-more');" onmouseout="$('#hardware_design').removeClass('card-background-learn-more');('#hardware_design').focus();">Learn more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card"><button class="btn btn-primary card-background" id="digital_electronics" type="button"></button>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Digital Electronics</h4>
+                                                <p class="card-text">In the project for a RoboCup Small Size league team of robots I was also responsible for the development and testing of the robots' firmware, which allowed for basic interaction through a serial interface for testing and the
+                                                    robots' movement.</p>
+                                                <a class="card-link" href="#autonomous-driving" onmouseover="$('#digital_electronics').addClass('card-background-learn-more');" onmouseout="$('#digital_electronics').removeClass('card-background-learn-more');('#digital_electronics').focus();">Learn more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card"><button class="btn btn-primary card-background" id="robotics_ros" type="button"></button>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Robotics &amp; ROS</h4>
+                                                <p class="card-text">I worked in a project for the development of an active lower-limb prosthesis with ROS. During my internship &nbsp;I also worked migrating components from ROS1 to ROS2, and with ROS2 in general.</p>
+                                                <a class="card-link" href="#t-flex" onmouseover="$('#robotics_ros').addClass('card-background-learn-more');" onmouseout="$('#robotics_ros').removeClass('card-background-learn-more');('#robotics_ros').focus();">Learn more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </nav>
+                        </section>
 					</header>
 
 				<!-- Main -->
@@ -94,24 +117,24 @@
 
 						<!-- Intro -->
 							<article id="robocup">
-								<h2 class="major">Intro</h2>
-								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
+								<h2 class="major">RoboCup Small Size League Robot</h2>
+								<span class="image main"><img src="assets/img/engineering/digital_design.PNG" alt="" /></span>
 								<p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. By the way, check out my <a href="#work">awesome work</a>.</p>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
 							</article>
 
 						<!-- Work -->
 							<article id="t-flex">
-								<h2 class="major">Work</h2>
-								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
+								<h2 class="major">Robotic Lower-Limb Prosthesis for Patients with Foot Drop</h2>
+								<span class="image main"><img src="assets/img/engineering/ros_code_vscode.png" alt="" /></span>
 								<p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
 								<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
 							</article>
 
 						<!-- About -->
-							<article id="portfolio">
-								<h2 class="major">About</h2>
-								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
+							<article id="autonomous-driving">
+								<h2 class="major">Autonomous Driving</h2>
+								<span class="image main"><img src="assets/img/engineering/ros_code_atom.png" alt="" /></span>
 								<p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
 							</article>
 
@@ -138,12 +161,6 @@
 										<li><input type="reset" value="Reset" /></li>
 									</ul>
 								</form>
-								<ul class="icons">
-									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
                             </article>
                     </div>
 			</div>
@@ -168,7 +185,7 @@
                             href="https://www.instagram.com/santorregroza"><i class="icon ion-social-instagram"></i></a>
                     </div>
                 </div>
-                <p class="copyright">Santiago Sánchez Torregroza © 2019</p>
+                <p class="copyright">Santiago Sánchez Torregroza © 2020</p>
             </div>
         </footer>
     </div>

@@ -85,23 +85,34 @@ div.card {
   outline: none !important;
 }
 
+.card-background-learn-more {
+  filter: blur(4px);
+  z-index: 1;
+  box-shadow: inset 0px 0px 1px 4px rgb(0,0,0) !important;
+  outline: none !important;
+}
+
 div.card-body {
   background-color: rgba(255,255,255,0.0);
-  color: rgb(255,255,255);
+  color: #d4d4d4;
   z-index: 2;
   padding: 1rem;
+}
+
+body a, a:hover, a:active, a:focus, a:visited {
+  color:#212529;
 }
 
 a.card-link {
   color: rgb(116,114,114);
 }
 
-a.footer_link {
-  color: rgb(209,207,207) !important;
+a.card-link:hover, a.card-link:active {
+  color:#eeeeee;
 }
 
-a:hover {
-  color:#212529 !important;
+a.footer_link {
+  color: rgb(209,207,207);
 }
 
 .row_skills {
@@ -120,4 +131,9 @@ a:hover {
 .h1, h1 {
   font-size: 2.5rem;
   letter-spacing: 0.5rem;
+  line-height: 1.3;
+}
+
+.about-me-content {
+  margin-bottom: 80px;
 }
