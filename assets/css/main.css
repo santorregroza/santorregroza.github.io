@@ -792,6 +792,7 @@ button {
 				overflow: hidden;
 				white-space: nowrap;
 				opacity: 1;
+				cursor: cell;
 			}
 
 				#main article .close:before {
@@ -817,6 +818,7 @@ button {
 				#main article .close:hover:before {
 					background-color: rgba(40,40,40,1);
 					opacity: 1;
+					cursor: cell;
 				}
 
 				#main article .close:active:before {
