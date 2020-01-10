@@ -4,7 +4,10 @@ body {
   font-family: 'Roboto Slab';
   padding-top: 72px !important;
   color: #212529;
+  cursor: crosshair;
 }
+
+::selection { color: #FFFFFF;  background: #212529; }
 
 .portfolio-block.intro .avatar {
   width: 300px;
@@ -46,6 +49,11 @@ body {
   border: unset;
 }
 
+div.card {
+  position: relative;
+  height: 100%;
+}
+
 .card-background {
   background-image: url("../../assets/img/engineering/ros_code_atom.png");
   background-size: 200%;
@@ -71,11 +79,6 @@ body {
   background-position: 15%;
 }
 
-div.card {
-  position: relative;
-  height: 100%;
-}
-
 .card-background {
   position: absolute;
   width: 100%;
@@ -87,12 +90,14 @@ div.card {
 
 .card-background:hover {
   filter: blur(2px) opacity(1);
+  cursor: no-drop;
 }
 
 .card-background:active {
   filter: blur(3px);
   box-shadow: inset 0px 0px 1px 4px #000000e3 !important;
   outline: none !important;
+  cursor: no-drop;
 }
 
 .card-background:focus {
@@ -120,6 +125,7 @@ div.card-body {
 
 body a, a:hover, a:active, a:focus, a:visited {
   color:#212529;
+  cursor: cell;
 }
 
 a.card-link {
