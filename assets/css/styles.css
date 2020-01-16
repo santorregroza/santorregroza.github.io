@@ -168,6 +168,12 @@ a.footer_link {
 }
 
 /* Cursor */
+@media only screen and (max-device-width : 480px) { 
+  .cursor {
+    visibility: hidden;
+    display: none;
+  }
+}
 
 .cursor {
   width: 20px;
