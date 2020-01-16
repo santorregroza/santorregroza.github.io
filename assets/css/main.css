@@ -770,7 +770,7 @@ button {
 			border-radius: 4px;
 			opacity: 0;
 			box-shadow: 0px 0px 5px 1px #7e7c7ce3, 0 -1px 5px 1px #fffbfbe3;
-			background: linear-gradient(90deg, #000 0%, #000000d6 20%, #000000d6 80%, #000 100%)
+			background: linear-gradient(90deg, #000000ff 0%, #000000e3 20%, #000000e3 80%, #000000ff 100%)
 		}
 
 			#main article.active {
@@ -830,7 +830,9 @@ button {
 		@media screen and (max-width: 736px) {
 
 			#main article {
-				padding: 3.5rem 2rem 0.5rem 2rem ;
+				padding: 3.5rem 2rem 0.5rem 2rem;
+				background: unset;
+				background-color: #000000e3;
 			}
 
 				#main article .close:before {
